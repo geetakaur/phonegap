@@ -1,0 +1,9 @@
+<div data-options="dxView : { name: 'Home', title: 'Home',secure: true } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div class="middle">
+            <div data-bind="dxButton: { name: 'btnNotes',text: 'Notifications' , onClick: buttonClicked}" style="width:50%"></div>
+        </div>
+
+        
+    </div>
+</div>

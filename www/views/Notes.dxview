@@ -1,0 +1,14 @@
+<div data-options="dxView : { name: 'Notes', title: 'Notes' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate : { name: 'item' } " data-bind="dxAction: '#Notedetails/{id}'">
+                <h3 data-bind="text: $data.caseid"></h3>
+                <div class="list-item"> Note: <span data-bind="text: name"></span></div>
+                <div class="list-item"> Reminder Date: <span data-bind="text: $data.reminderdate"></span></div>
+                <div class="list-item">Due Date: <span data-bind="text: $data.duedate" class="list-item"></span></div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+﻿
+
+/*body{
+    text-align: center;
+    }*/
+.button{
+ margin: 10px;
+ font-size:small;
+    }
+
+.middle {
+    padding:50px;
+    text-align:center;
+    width:80%;
+}
+
+
+
+.list-item {
+    font-size:small;
+}

@@ -1,0 +1,30 @@
+<div data-options="dxView : { name: 'Login', title: '' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+
+        <div style= "text-align:center; padding:20px">
+            <img  src="images\Liberate SE_48x48.png"/>
+            <h2>Linetime</h2>
+        </div>
+        
+         <div class="dx-fieldset">
+                <div class="dx-field">
+            
+                    <div class="dx-field-Label">
+                    <div data-bind="dxTextBox:{ placeholder: 'Username', value:username }"></div>
+                </div>
+            </div>
+            <div class="dx-field">            
+                <div class="dx-field-Label">
+                    <div data-bind="dxTextBox:{ placeholder: 'Password', value:password, type:'password'}">
+                    </div>
+                </div>
+            </div><br />
+             <div class="button" data-bind="dxButton: { text: 'Sign In', onClick: Signin }"></div><br /><br />
+                <div class="button" data-bind="dxButton:{text:'Forgot your password?'}"></div>
+    </div>
+
+        <div id="scrollViewContainer" data-bind="dxScrollView: {}">
+            <div data-bind="html: SmartLiberate_v2.MessageContent"></div>
+        </div>
+</div>
+</div>
